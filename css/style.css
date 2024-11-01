@@ -1,0 +1,409 @@
+
+.ue-license-form {
+	  margin-top: 40px;
+}
+.ue-lf-inner {
+	background: white;
+    padding: 80px;
+    width: 520px;
+    margin: auto;
+}
+
+.ue-lf-inner,
+.ue-lf-top,
+.ue-lf-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ue-lf-headline {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.ue-lf-top img {
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ue-lf-content,
+.ue-lf-content input[type="text"] {
+	width: 100%;
+}
+
+.ue-lf-content input[type="submit"] {
+	margin-top: 20px;
+}
+
+.ue-error {
+    padding: 10px;
+    background: #c7c7c7;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-left: 5px solid red;
+}
+
+.ue-error p {
+    margin: 0;
+}
+
+.ue-lf-error {
+	width: 520px;
+    margin: auto;
+    padding: 10px 80px;
+    background: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ue-popup {
+ 	display: none;
+}
+
+.ue-popup.open {
+	display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    background: #00000099;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.ue-popup-inner {
+    background: white;
+    width: 520px;
+    margin: 15% auto;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ue-popup-inner h3 {
+	text-transform: uppercase;
+    font-weight: 800;
+    font-size: 22px;
+	margin-top: 0;
+}
+
+.ue-popup-inner p {
+	margin-bottom: 20px;
+}
+
+.ue-popup-inner input[type="password"] {
+	width: 100%;
+}
+
+.ue_pc_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+span.button-primary.ue_ajax_enabled_password_check_pop {
+    margin-right: 10px;
+}
+
+/* Error and success */
+
+.ue-error-success {
+    width: 50%;
+}
+
+.ue-list-error,
+.ue-list-success {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ue-show-error {
+	display: none;
+	background-color: red;
+	padding: 10px;
+
+}
+
+.ue-show-success {
+	display: none;
+	background-color: #22dc22;
+	padding: 10px;
+
+}
+
+/* Admin Panel Styles */
+
+.wg-ue-settings {
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.wg-ue-header {
+    background: white;
+}
+
+.wg-ue-header-inner,
+.wg-ue-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.wg-ue-header-inner {
+    padding: 20px;
+    align-items: center;
+}
+
+.wg-ue-main {
+    margin-top: 10px;
+}
+
+.wg-ue-left {
+    width: 68%;
+    background: white;
+}
+
+.wg-ue-left-inner {
+    padding: 25px;
+}
+
+.wg-ue-right {
+    width: 31%;
+}
+
+.wg-ue-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.wg-ue-header-left .dashicons {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #040413;
+}
+
+.wg-ue-header-left .plugin-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #040413;
+}
+
+.wg-ue-version {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #040413;
+}
+
+.wg-ue-version sup {
+    color: #0817cc;
+}
+
+.sidebar-item {
+    margin-bottom: 40px;
+}
+
+.sidebar-item:last-child {
+    margin-bottom: 0px;
+}
+
+.wg-ue-sidebar-header {
+    padding: 20px;
+    background: #040413;
+    color: white;
+}
+
+.wg-ue-sidebar-header h3 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.wg-ue-sidebar-content {
+    padding: 20px;
+    background: white;
+}
+
+.wg-ue-sc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wg-ue-sc span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wg_ue_username_update {
+    max-width: 520px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.new-username-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.wg_ue_username_update_inner {
+    display: flex;
+    align-items: center;
+    border: 2px solid #bcbde6;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.wg_ue_username_update_inner input[type="text"] {
+    border: none;
+    background-color: transparent;
+}
+
+.wg_ue_username_update_inner input[type="text"]:hover,
+.wg_ue_username_update_inner input[type="text"]:focus,
+.wg-tk-button:hover,
+.wg-tk-button:focus {
+    border: none;
+    box-shadow: unset;
+    outline: none;
+}
+
+.wg-tk-button {
+    padding: 10px 20px;
+    background: #1f33c1;
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wg-ue-updated {
+    max-width: 520px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wg-ue-username-success,
+.wg-ue-username-failed {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.wg-ue-username-success {
+    background: #07cc4d;
+}
+
+.wg-ue-username-failed {
+    background: #fb0a0a;
+}
+
+.wg-ue-updated p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.wg-ue-user-list > h2:first-child {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+	.wg-ue-plugin-info {
+		display: none;
+	}
+
+	.wg-ue-main {
+		display: block;
+	}
+
+	.wg-ue-left {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.wg-ue-right {
+		width: 50%;
+		margin: auto;
+	}
+	.wg-ue-email .wg-ue-left {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.wg-ue-right {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.wg-ue-settings-inner {
+	    display: block;
+	    text-align: center;
+	    padding: 10px 20px;
+	}
+
+	.wg-ue-logo {
+	    display: block;
+	    border-right: 0;
+	    border-bottom: 1px solid black;
+	    padding-bottom: 10px;
+	    padding-right: 0;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+
+	.wg-ue-right {
+		width: 100%;
+    }
+
+    .wg-ue-header-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .wg-ue-header-left {
+        padding-bottom: 10px;
+        border-bottom: 2px solid #040413;
+        justify-content: center;
+    }
+
+    .wg-ue-header-right {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+	.wg-ue-settings,
+	.form-table,
+	tbody,
+	tr {
+		display: block;
+		width: 100%;
+	}
+}
